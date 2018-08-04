@@ -1,0 +1,139 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Thank you\n\n\nFirst of all, I would like to thank you for a bundle for giving me a chance to showcase my skills for further consideration, this milestone means a lot to me, I've been continuously running around learning and improving my skills so that one day I can be a proud part of an excellent team like yours, I hope the task I did meets your requirement, just the possibility of me finally joining a professional team is constantly driving me to do my best to get selected. \n\n\nI hope I will make through, and for that, thanks a lot, thank you so much. \n\n\nIntroduction\n\n\nLaravel based \nCRUD\n system as a skill assessment task\n\n\nLibraries used\n\n\n\n\nThere was no specific library used other than \nBootstrap\n and \nfontawesome\n, the reason this library was used is to demonstrate my skills of working in grids system and pretty user interface with \nfontawesome\n icons. \n\n\n\n\nTechnical thinking\n\n\nI believe that user experience and his time both are very expensive and important, to make the experience smooth I've performed visual changes on the client side so he doesn't need to wait for the system to respond, but behind the scene system is as accurate as possible on both client and server end. \n\n\nProgrammatical approach\n\n\n\n\nUsing some libraries \ntoCSV, toXML for PHP PECL\n etc for back-end, and \njQuery, VUE, Lodash, Underscore\n for front-end was an easy shortcut, but that was not enough to explain just how deep my understanding for \nPHP and JS\n really is, so, to demonstrate my skills in every aspect, i used \nPURE JS\n and \nPURE PHP\n and did everything from scratch, because the code utilizes \nJS\n hugely it is extremely portable in case of any DB or Back-end/framework changes, such as changing to \nnodeJS\n only needed URL handling and \nCRUD\n requests.\n\n\n\n\nFeatures and procedure\n\n\n\n\nmade use of \nCSRF\n in Laravel to secure the application and demonstrate my thinking of secure and clean code\n\n\nFollowed \nKISS, DRY algorithm\n to functionalize code and call them whenever needed. \n\n\nmade use of \nXHR/AJAX\n for better and effortless fast user experience\n\n\nClient/server side validation \n\n\nDatabase IN/OUT data sanitization\n\n\nUsed \nSQLITE\n for portability only for the task's sake. \n\n\nVisual simple responses \n\n\nVisual simple locks on components to highlight task in progress", 
+            "title": "Thank you"
+        }, 
+        {
+            "location": "/#thank-you", 
+            "text": "First of all, I would like to thank you for a bundle for giving me a chance to showcase my skills for further consideration, this milestone means a lot to me, I've been continuously running around learning and improving my skills so that one day I can be a proud part of an excellent team like yours, I hope the task I did meets your requirement, just the possibility of me finally joining a professional team is constantly driving me to do my best to get selected.   I hope I will make through, and for that, thanks a lot, thank you so much.", 
+            "title": "Thank you"
+        }, 
+        {
+            "location": "/#introduction", 
+            "text": "Laravel based  CRUD  system as a skill assessment task", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/#libraries-used", 
+            "text": "There was no specific library used other than  Bootstrap  and  fontawesome , the reason this library was used is to demonstrate my skills of working in grids system and pretty user interface with  fontawesome  icons.", 
+            "title": "Libraries used"
+        }, 
+        {
+            "location": "/#technical-thinking", 
+            "text": "I believe that user experience and his time both are very expensive and important, to make the experience smooth I've performed visual changes on the client side so he doesn't need to wait for the system to respond, but behind the scene system is as accurate as possible on both client and server end.", 
+            "title": "Technical thinking"
+        }, 
+        {
+            "location": "/#programmatical-approach", 
+            "text": "Using some libraries  toCSV, toXML for PHP PECL  etc for back-end, and  jQuery, VUE, Lodash, Underscore  for front-end was an easy shortcut, but that was not enough to explain just how deep my understanding for  PHP and JS  really is, so, to demonstrate my skills in every aspect, i used  PURE JS  and  PURE PHP  and did everything from scratch, because the code utilizes  JS  hugely it is extremely portable in case of any DB or Back-end/framework changes, such as changing to  nodeJS  only needed URL handling and  CRUD  requests.", 
+            "title": "Programmatical approach"
+        }, 
+        {
+            "location": "/#features-and-procedure", 
+            "text": "made use of  CSRF  in Laravel to secure the application and demonstrate my thinking of secure and clean code  Followed  KISS, DRY algorithm  to functionalize code and call them whenever needed.   made use of  XHR/AJAX  for better and effortless fast user experience  Client/server side validation   Database IN/OUT data sanitization  Used  SQLITE  for portability only for the task's sake.   Visual simple responses   Visual simple locks on components to highlight task in progress", 
+            "title": "Features and procedure"
+        }, 
+        {
+            "location": "/How To/", 
+            "text": "How To\n\n\nIn here, I'll demonstrate visually how the system works\n\n\nAdding a book\n\n\n\n\nadding of a book on top form works only when the form is not empty, as soon as the submit/enter button is pressed the value will get appended in \ntbody\n registering itself with existing components for operations. \n\n\nwhile adding the book, the system sends the value to the database using \nXHR\n utilizing \nCSRF token\n, on \nresponse 200\n/success the \nlast_insert_id()\n for the row is placed for the visual component. \n\n\n\n\n\n\n\n\n\n\nuntil the adding of book returns a status, form fields are disabled to avoid errors\n\n\n\n\nUpdating a book\n\n\n\n\nto update the book, hovering over \ntr\n or \nrow\n of the table will show \"edit/pen\" icon on the side, clicking that will process the form to update the certain row\n\n\nwhile the user is processing with the update, other update fields are disabled until the last update is made or is canceled\n\n\nupon update, the values get changed on the table once the \nstatus response\n is 200. \n\n\n\n\n\n\n\n\nDeleting a book\n\n\n\n\non click of trash icon, the row will get deleted when the \nstatus response\n is 200.\n\n\nit also disables other trash icons until the response is returned. \n\n\n\n\nre-registering of components\n\n\n\n\nupon every major update, new components register itself, each block is reused after proper functional programming \n\n\n\n\n\n\n\n\nlogging\n\n\n\n\nthe visible status is shown to the user performing actions to keep track of success.", 
+            "title": "How To"
+        }, 
+        {
+            "location": "/How To/#how-to", 
+            "text": "In here, I'll demonstrate visually how the system works", 
+            "title": "How To"
+        }, 
+        {
+            "location": "/How To/#adding-a-book", 
+            "text": "adding of a book on top form works only when the form is not empty, as soon as the submit/enter button is pressed the value will get appended in  tbody  registering itself with existing components for operations.   while adding the book, the system sends the value to the database using  XHR  utilizing  CSRF token , on  response 200 /success the  last_insert_id()  for the row is placed for the visual component.       until the adding of book returns a status, form fields are disabled to avoid errors", 
+            "title": "Adding a book"
+        }, 
+        {
+            "location": "/How To/#updating-a-book", 
+            "text": "to update the book, hovering over  tr  or  row  of the table will show \"edit/pen\" icon on the side, clicking that will process the form to update the certain row  while the user is processing with the update, other update fields are disabled until the last update is made or is canceled  upon update, the values get changed on the table once the  status response  is 200.", 
+            "title": "Updating a book"
+        }, 
+        {
+            "location": "/How To/#deleting-a-book", 
+            "text": "on click of trash icon, the row will get deleted when the  status response  is 200.  it also disables other trash icons until the response is returned.", 
+            "title": "Deleting a book"
+        }, 
+        {
+            "location": "/How To/#re-registering-of-components", 
+            "text": "upon every major update, new components register itself, each block is reused after proper functional programming", 
+            "title": "re-registering of components"
+        }, 
+        {
+            "location": "/How To/#logging", 
+            "text": "the visible status is shown to the user performing actions to keep track of success.", 
+            "title": "logging"
+        }, 
+        {
+            "location": "/Installation/", 
+            "text": "Installation\n\n\nBecause the system was made having portability in mind for this task the procedure of installation includes having PHP and required PHP extensions installed to run \nartisan\n\n\nconfiguration\n\n\n\n\n.env\n file contains the path of database and database definition, change it to your path \n\n\ndatabase/database.sqlite\n is the database file used in the system, make sure to change the path if you have any plans to change directory or rename the file\n\n\nconfig/database.php\n contains database location and definition same as \n.env\n change it accordingly \n\n\n\n\ndependancies\n\n\nLaravel \nartisan\n requires the following:\n\n\n\n\nPHP \nmb_string\n extension\n\n\nPHP \next-zip\n extension\n\n\nPHP \next-dom\n extension\n\n\nwriteable directory of \nbase_dir\n defined in \nphp.ini\n\n\n\n\nrunning application\n\n\nphp artisan serve\n will start the laravel on default port 8000 unless changed.", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/Installation/#installation", 
+            "text": "Because the system was made having portability in mind for this task the procedure of installation includes having PHP and required PHP extensions installed to run  artisan", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/Installation/#configuration", 
+            "text": ".env  file contains the path of database and database definition, change it to your path   database/database.sqlite  is the database file used in the system, make sure to change the path if you have any plans to change directory or rename the file  config/database.php  contains database location and definition same as  .env  change it accordingly", 
+            "title": "configuration"
+        }, 
+        {
+            "location": "/Installation/#dependancies", 
+            "text": "Laravel  artisan  requires the following:   PHP  mb_string  extension  PHP  ext-zip  extension  PHP  ext-dom  extension  writeable directory of  base_dir  defined in  php.ini", 
+            "title": "dependancies"
+        }, 
+        {
+            "location": "/Installation/#running-application", 
+            "text": "php artisan serve  will start the laravel on default port 8000 unless changed.", 
+            "title": "running application"
+        }, 
+        {
+            "location": "/Routes/", 
+            "text": "Routes\n\n\nThe route to the system are as follows:\n\n\n\n\n/ (home/index)    - GET\n\n\n/addBooks     - POST {author, title}\n\n\n/updateBooks      - POST {author, title, id}\n\n\n/deleteBooks      - POST {id}\n\n\n/download/{extension}/{component}\n\n\n\n\nControllers\n\n\n\n\nMain\n\n\n\n\nView\n\n\n\n\nhome.blade.php\n\n\nheader.blade.php\n\n\n\n\nModel\n\n\n\n\nBooks\n\n\n\n\nAssets\n\n\n\n\ncss/style.css\n\n\nscss/style.scss \n not in use \n\n\njs/app.js", 
+            "title": "Routes"
+        }, 
+        {
+            "location": "/Routes/#routes", 
+            "text": "The route to the system are as follows:   / (home/index)    - GET  /addBooks     - POST {author, title}  /updateBooks      - POST {author, title, id}  /deleteBooks      - POST {id}  /download/{extension}/{component}", 
+            "title": "Routes"
+        }, 
+        {
+            "location": "/Routes/#controllers", 
+            "text": "Main", 
+            "title": "Controllers"
+        }, 
+        {
+            "location": "/Routes/#view", 
+            "text": "home.blade.php  header.blade.php", 
+            "title": "View"
+        }, 
+        {
+            "location": "/Routes/#model", 
+            "text": "Books", 
+            "title": "Model"
+        }, 
+        {
+            "location": "/Routes/#assets", 
+            "text": "css/style.css  scss/style.scss   not in use   js/app.js", 
+            "title": "Assets"
+        }, 
+        {
+            "location": "/Work Case/", 
+            "text": "Work Case\n\n\nVideo demonstration of how the application works \n\n\n\n[Watch the video](/doc/workcase.mp4)", 
+            "title": "Work Case"
+        }, 
+        {
+            "location": "/Work Case/#work-case", 
+            "text": "Video demonstration of how the application works   \n[Watch the video](/doc/workcase.mp4)", 
+            "title": "Work Case"
+        }
+    ]
+}
